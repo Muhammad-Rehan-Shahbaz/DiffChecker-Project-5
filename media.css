@@ -1,0 +1,36 @@
+@media only screen and (min-width: 200px) and (max-width: 1350px) {
+  .comparisoncontainer {
+    margin: 20px;
+  }
+  .textbox {
+    flex-basis: 98%;
+  }
+  #buttons {
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+  }
+  .merge-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+  }
+
+  .merge-modal.active {
+    display: flex;
+  }
+
+  .merge-content {
+    width: 90%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .merge-diff {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
